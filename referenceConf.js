@@ -1,18 +1,5 @@
 // A reference configuration file.
 exports.config = {
-  // ----- How to setup Selenium -----
-  //
-  // There are three ways to specify how to use Selenium. Specify one of the
-  // following:
-  //
-  // 1. seleniumServerJar - to start Selenium Standalone locally.
-  // 2. seleniumAddress - to connect to a Selenium server which is already
-  //    running.
-  // 3. sauceUser/sauceKey - to use remote Selenium servers via SauceLabs.
-  //
-  // If the chromeOnly option is specified, no Selenium server will be started,
-  // and chromeDriver will be used directly (from the location specified in
-  // chromeDriver)
 
   // The location of the selenium standalone server .jar file, relative
   // to the location of this config. If no other method of starting selenium
